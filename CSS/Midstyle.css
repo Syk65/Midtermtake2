@@ -1,0 +1,77 @@
+
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+div.container{
+border: 10px solid rgb(33, 8, 73) ;
+width: 70%;
+margin: 0 auto 0 auto;
+}
+
+
+
+h1,h2{
+background-color: rgb(189, 222, 135);
+}
+
+
+.hero img{
+width: 39.89%;
+
+}
+
+
+div.left, div.middle, div.right{
+border: 3px solid rgb(202, 38, 32);
+width: 35%;
+}
+img{
+width: 100%;
+}
+
+.content{
+    flex:3;
+    border-right:1px solid #9f9f9f;
+}
+ 
+
+aside{
+display: flex;
+justify-content: space-between;
+}
+
+nav{
+background-color: rgb(150, 169, 187);
+}
+
+ul{
+text-align: center;
+}
+li{
+display: inline-block;
+width: 200px;
+border: 2px solid white ;
+line-height: 3em;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-variant: small-caps;
+}
+a{
+color: aliceblue;
+text-decoration: none;
+border: 1.5px solid rgb(238, 190, 190);
+display: block;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  border: 5px dashed #f7a239;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
